@@ -122,7 +122,6 @@ public class InPlacePartition {
 	public static void main(String[] args) {
 
 		SinglyLinkedList sll = new SinglyLinkedList("10->4->20->10->3");
-		sll.midElement();
 		sll.setHead(partionLLAround(3,sll.getHead()));
 		sll.display();
 	}
